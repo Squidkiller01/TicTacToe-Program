@@ -1,0 +1,17 @@
+CIT 144 end of course Tic-Tac-Toe program - Michael Porter
+
+1. Has the user choose a gamemode (either singleplayer or multiplayer)
+2. Prints an empty board with defined x and y-axes.
+3. Checks for player's turn (Player X (human player) is always even numbered turns)
+4. Requires the user to choose a valid tile input with a row value of A, B, or C and a column value of 1, 2, or 3.
+5. Updates and prints the board with the updated tile
+6. Runs checks for winning conditions
+7. If checks turn up True, program ends declaring the current player the winner after displaying the board one final time
+8. If checks turn up False, program continues as normal
+9. Moves to the next player's turn and checks for multiplayer or singleplayer mode
+10. If checks turn up for multiplayer mode:
+11. Repeats through steps 3-8 iterating between each player until either or neither is declared a winner
+12. If checks turn up for singleplayer mode:
+13. The program chooses a random empty tile for the AI opponent's selection
+14. Repeat steps 6-8
+15. Program loops until game ends
